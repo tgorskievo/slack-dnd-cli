@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "minimist": "1.2.5",
+    "slack-node": "0.1.8"
+  }
+}
