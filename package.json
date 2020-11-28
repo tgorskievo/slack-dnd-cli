@@ -1,4 +1,7 @@
 {
+  "name": "slack-dnd-cli",
+  "author": "https://github.com/tgorskievo",
+  "version": "0.0.1",
   "dependencies": {
     "minimist": "1.2.5",
     "slack-node": "0.1.8"
