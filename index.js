@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const Slack = require('slack-node');
 const argv = require('minimist')(process.argv.slice(2));
 const token = process.env.SLACK_TOKEN
