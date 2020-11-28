@@ -11,7 +11,7 @@ const slack = new Slack(token);
 switch (argv.dnd) {
     case 'start':
         const timeDuration = argv.time
-        if (!timeDuration || !Number.isInteger(timeDuration)) console.warn('"--time" argument must be specified for the "start" command. \n It must be integer!')
+        if (!timeDuration || !Number.isInteger(timeDuration)) return console.warn('"--time" argument must be specified for the "start" command. \n It must be integer!')
 
         return slack.api(
             'dnd.setSnooze', { token, num_minutes: timeDuration },
